@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms Examples</title>
+</head>
+<body>
+
+    <form method="POST" name="login" action="" enctype="multipart/form-data" >
+        <fieldset>
+            <legend>Login</legend>
+        <input type="text" name="name" placeholder="Username" required/>
+
+        <input type="password" name="password" placeholder="Password" required />
+
+        <input type="submit" name="submit" value="login" />
+        <input type="reset" name="reset" value="Cancel" />
+    </fieldset>
+    </form>
+
+
+    <!-- Registration Form-->
+    <form method="post" action="" name="register" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Register</legend>
+                <table border=0 cellpadding=5 cellspacing=5>
+                    <tr>
+                        <td>User</td>
+                        <td>
+                            <input type="text" name="username" placeholder="username" required/>               
+                        </td>
+                    </tr>
+
+                    <tr>
+                            <td>Password</td>
+                            <td>
+                                <input type="password" name="password" placeholder="Password" required/>      
+                            </td>
+                    </tr>
+
+                    <tr>
+                            <td>Email</td>
+                            <td>
+                                <input type="email" name="email" placeholder="you@domain.com" required/>      
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value="M" checked />Male
+                            <input type="radio" name="gender" value="F"/>Female
+                            <input type="radio" name="gender" value="O"/>Others
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DOB</td>
+                        <td>
+                            <select name="day" size=1>
+                                <option value=1>01</option>
+                                <option value=2>02</option>
+                                <option value=3 selected>03</option>
+                                <option value="31">31</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Courses</td>
+                        <td>
+                            <input type="checkbox" name="php" value="php" checked />PHP
+                            <input type="checkbox" name="asp" value="asp" />ASP
+                            <input type="checkbox" name="java" value="java" />Java
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Photo</td>
+                        <td>
+                            <input type="file" name="upload" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Message</td>
+                        <td>
+                            <textarea rows="5" cols="30" name="message">
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>
+                            <input type="submit" name="register" value="Register" />
+                            <input type="reset" name="cancel" value="Cancel" />
+                        </td>
+                    </tr>
+                </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
