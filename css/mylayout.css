@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box1{
+    width:1140px;
+    border:2px solid #cceeff;
+    border-radius: 0px 40px 0px 40px;
+    background-color:#00ff00;
+    color:#ffffff;
+    font-size:35px;
+    font-weight:900;
+    min-height:200px;
+    margin:auto auto;
+    padding:10px;
+}

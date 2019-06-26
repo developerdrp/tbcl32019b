@@ -1,0 +1,9 @@
+
+      /* External Style Sheet */
+      /* Type Selector*/
+      p{ color:#00ff00; font-size:30px; font-weight:900; }
+      /* ID Selector*/
+      #box{ width:22%; margin:2px; float:left; border:2px solid #cc99cc;
+          border-radius:10px; }
+      /* class Selector*/
+      .myheading{border-bottom:1px solid #cc66ff; }
