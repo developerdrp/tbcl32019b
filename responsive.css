@@ -15,6 +15,33 @@ img{
 	width:100%;
 	height:auto;
 }
+#container{
+	width:1140px;
+	min-height:800px;
+	background-color:#ccddcc;
+	margin:auto auto;
+}
+.row{
+	min-height:15px;
+}
+.col100{
+	width:100%;
+}
+.col75{
+	width:75%;
+	float:left;
+}
+.col50{
+	width:50%;
+	float:left;
+}
+.col25{
+	width:25%;
+	float:left;
+}
+.clr{
+	clear:both;
+}
 @media screen and (max-width: 1200px)
 {
 	body{
@@ -29,6 +56,14 @@ img{
 	h1{
 		font-size:48px;
 	}
+	.colmd100{
+		width:100%;
+	}
+	.colmd50{
+		width:50%;
+		float:left;
+	}
+
 }
 @media screen and (max-width: 480px)
 {
@@ -37,5 +72,8 @@ img{
 	}
 	h1{
 		font-size:30px;
+	}
+	.colsm100{
+		width:100%;
 	}
 }
