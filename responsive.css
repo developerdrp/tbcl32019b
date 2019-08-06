@@ -17,7 +17,7 @@ img{
 }
 #container{
 	width:1140px;
-	min-height:800px;
+	min-height:1400px;
 	background-color:#ccddcc;
 	margin:auto auto;
 }
@@ -41,6 +41,65 @@ img{
 }
 .clr{
 	clear:both;
+}
+
+.dim{
+	opacity: 0.5;
+}
+.dim:hover{
+	opacity: 1;
+}
+.menu{
+	width:100%;
+	background-color: rgba(255,0,0,0.5);
+	min-height:60px;
+	
+}
+* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 1140px;
+  background-color: rgba(255,0,0,0.5);
+	min-height:60px;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+.menu ul{
+	list-style-type: none;
+	margin-top:20px;
+}
+.menu ul li{
+	display:inline;
+	padding:15px;
+}
+.menu ul li:hover{
+	box-shadow: 5px 5px 10px #ffc;
+	background-color: rgba(255, 0, 0, 0.9);
 }
 @media screen and (max-width: 1200px)
 {

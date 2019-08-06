@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript date and time with form</title>
+</head>
+<body onload="currentDate()">
+
+	<div id="date"></div>
+	<br/>
+	<div id="time">
+		<span id="hh"></span>:
+		<span id="mm"></span>:
+		<span id="ss"></span>
+	</div>
+
+
+	<hr/>
+	<form method="POST" name="login" action="" enctype="multipart/form-data" onsubmit="return validate()">
+		<fieldset>
+			<legend>Login</legend>
+			<div id="error"></div>
+			<br/>
+			<input type="text" name="username" placeholder="username"> <br/>
+
+			<input type="password" name="password" placeholder="Password"> <br/>
+
+			<input type="submit" name="submit" value="Login"> 
+		</fieldset>
+	</form>
+
+	
+
+
+
+	<script src="js/datetime.js"></script>
+</body>
+</html>
